@@ -1,0 +1,181 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="M.S. in Applied Health Behavioral Research"
+      subtitle="Sep 2023 - Aug 2024 at Washington University in St. Louis School of Medicine, St. Louis, MO"
+    >
+      GPA: 4.00/4.00<br/>
+      Thesis: Altered Functional Connectivity and Emotion Regulation in Children with Early Sensory Challenges<br/>
+      Mentor: Dr. Rebecca Schwarzlose, Assistant Professor
+    </TimeLineElement>
+    <TimeLineElement
+      title="B.A. in Psychology and Communication (Graduated with Honors)"
+      subtitle="Sep 2018 - Jun 2022 at University of California, Davis, Davis, CA"
+    >
+      GPA: 3.918/4.00
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Research Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Neurodevelopment of Naturalistic Social/Emotion Encoding and Emotion Regulation"
+      subtitle="Jun 2024 - Present at Washington University School of Medicine (Dr. Cat Camacho, Dr. Rebecca Schwarzlose)"
+    >
+      • Characterized neonatal thalamus to visual cortex functional (fMRI) and structural (DTI) connectivity patterns and assessed individual differences in relation to social looking behaviors at age 1 year<br/>
+      • Developed encoding models of contextualized emotional, semantic, and audio-visual stimuli (movies) across development from fMRI data of 620 children ages 5-15<br/>
+      • Characterized associations between individual cortical selectivity maps and emotion regulation strategies using machine learning<br/>
+      • Developed pilot study for behavioral and neural naturalistic emotion regulation during peer interactions using DOT
+    </TimeLineElement>
+    <TimeLineElement
+      title="Clinical and Neural Correlates of Sensory Over-responsivity in Childhood"
+      subtitle="Aug 2023 - Jun 2025 at Washington University School of Medicine (Dr. Rebecca Schwarzlose, Dr. Chad Sylvester)"
+    >
+      • Identified differences in resting-state functional connectivity patterns associated with sensory over-responsivity through multi-level regression using multiple neuroimaging datasets<br/>
+      • Synthesized clinical symptom data across 5 national data consortiums (n=15,000) to characterize symptom presentation differences<br/>
+      • Characterized phenotypic heterogeneity in subcortical volume among preadolescents with autistic traits using hierarchical mixed-effects models<br/>
+      • Assessed the development of emotion regulation strategies in children with early-onset sensory challenges
+    </TimeLineElement>
+    <TimeLineElement
+      title="Emotion Regulation and Sleep Bruxism"
+      subtitle="Sep 2022 - Jul 2023 at Stanford University (Dr. Sylvia Kreibig, Dr. James Gross)"
+    >
+      • Analyzed actigraphy and polysomnography recordings from 300 participants to quantify associations between rhythmic masticatory muscle activity and emotion regulation capabilities<br/>
+      • Conducted extensive literature reviews on sleep bruxism, emotion regulation, and physiological measures
+    </TimeLineElement>
+    <TimeLineElement
+      title="Smoking Behaviors and Cognitive Control"
+      subtitle="Sep 2021 - Mar 2022 at University of California, Davis (Dr. Shelley Blozis)"
+    >
+      • Analyzed national public health data (MIDUS2) to examine how smoking behavior impacts self-reported impulsivity and emotional control
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Publications</div>
+  </div>
+
+  <div class="mb-10">
+    <div class="font-bold mb-2">Under Review</div>
+    <ul class="list-disc mx-6 mb-4 grid gap-2">
+      <li>
+        <strong>Luo, H.</strong>, Kim, A. W., Gurnett, C. A., et al. (2025). Replicable, Transdiagnostic Behavioral and Neural Correlates of Sensory Over-responsivity. <em>bioRxiv</em>. <a href="https://doi.org/10.1101/2025.09.04.672422" target="_blank" class="link link-primary">https://doi.org/10.1101/2025.09.04.672422</a> (under review at JAACAP)
+      </li>
+      <li>
+        <strong>Luo, H.*</strong>, Kim, W.A.*, Constantino, J.N., et al. Role of Phenotypic Heterogeneity in Volumetric Brain Associations with Autistic Traits in Preadolescence (submitted to <em>Biological Psychiatry</em>)
+      </li>
+      <li>
+        Egeland, C., Aklilu, J., Brown, A., Sui, E., Sutjiadi, B., Song, A., <strong>Luo, H.</strong>, et al. SurgVis+500-An Open, Multi-Procedure Dataset of Laparoscopic Surgical Videos (submitted to <em>Nature Scientific Data</em>)
+      </li>
+      <li>
+        Schwarzlose, R. F., Kim, A. W., Abbacchi, A. M., et al., <strong>Luo, H.</strong> Childhood sensory over-responsivity in autistic and community samples (under review at <em>INSAR</em>)
+      </li>
+    </ul>
+    <div class="font-bold mb-2">In Preparation</div>
+    <ul class="list-disc mx-6 grid gap-2">
+      <li>
+        Schwarzlose, R.F., Laumann, T.O., et al., <strong>Luo, H.</strong>, et al. Brain activation associated with scanner noise contaminates functional MRI data (in preparation for <em>Nature Methods</em>)
+      </li>
+      <li>
+        Schwarzlose, R.F., <strong>Luo, H.</strong>, et al. Clinical relevance and neurobiology of Sensory Over-Responsivity in Childhood. (invited submission, <em>Annual Review of Developmental Psychology</em>)
+      </li>
+      <li>
+        <strong>Luo, H.</strong>, Kanchanam, M., et al. Developmental differences in contextualized social-emotional encoding. (in preparation)
+      </li>
+    </ul>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Professional Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Professional Rater II"
+      subtitle="Aug 2024 - Present at OCEAN Lab, Washington University School of Medicine"
+    >
+      • Managed over 100 MRI, EEG, EMG sessions as lead technician with populations ranging from neonates to adolescents<br/>
+      • Administered behavioral assessments (SP3D-A, CARS-2, WASI) with children aged 8-15<br/>
+      • Conducted quality control on structural MRI data using FreeSurfer and preprocessed fMRI data<br/>
+      • Spearheaded participant recruitment, managed REDCap databases, and coordinated IRB compliance
+    </TimeLineElement>
+    <TimeLineElement
+      title="Project Coordinator"
+      subtitle="Sep 2023 - Aug 2024 at Stanford Medical AI and Computer Vision Lab, Stanford University"
+    >
+      • Annotated over 100 cholecystectomy surgical videos using Hierarchical Task Analysis via Label Box<br/>
+      • Collaborated with lab scientists to facilitate open-sourcing of surgical videos with data privacy compliance
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Assistant"
+      subtitle="Sep 2022 - Jun 2023 at Stanford Psychophysiology Lab, Stanford University"
+    >
+      • Performed quality control on actigraphy and PSG data and contributed to scoring protocol creation<br/>
+      • Created anatomical illustrations using Adobe Illustrator for book publications
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Selected Presentations</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <strong>Luo, H.</strong>, et al. (2025). Replicable functional connectivity patterns associated with sensory over-responsivity in children. <em>Society for Neuroscience Annual Conference</em>, San Diego, CA
+    </li>
+    <li>
+      <strong>Luo, H.</strong>, et al. (2025). Individual Differences in Emotion Regulation Strategies Shape Neural Discrimination Patterns Among Basic Emotions. <em>Social and Affective Neuroscience Society Annual Conference</em>, Chicago, IL
+    </li>
+    <li>
+      <strong>Luo, H.</strong>, et al. (2025). Sensory Over-Responsivity in Childhood: Neural Correlates and Specific Links to Anxiety. <em>Society of Biological Psychiatry Annual Meeting</em>, Toronto, Canada
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Honors & Awards</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>WashU School of Medicine Scholarship ($21,000) - Fall 2023</li>
+    <li>UC Davis Dean's Honors List - All semesters (Fall 2018 - Spring 2022)</li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <div class="mb-10">
+    <div class="font-bold mb-2">Data Collection</div>
+    <ul class="list-disc mx-6 mb-4 grid gap-1">
+      <li>Neuroimaging: MRI, EEG, DTI, DOT</li>
+      <li>Assessments: WASI-II, CARS-II, SP3DA</li>
+      <li>Physiology: EMG, Actigraphy, Polysomnography</li>
+    </ul>
+    <div class="font-bold mb-2">Data Analysis</div>
+    <ul class="list-disc mx-6 mb-4 grid gap-1">
+      <li>Programming: Python, R, Bash</li>
+      <li>Neuroimaging: FreeSurfer, Workbench, fMRIPrep</li>
+      <li>Data Management: REDCap, Excel, SPSS</li>
+    </ul>
+    <div class="font-bold mb-2">Languages & Certifications</div>
+    <ul class="list-disc mx-6 grid gap-1">
+      <li>English (Advanced), Mandarin (Native)</li>
+      <li>MRI Level II Operator, CITI, HIPAA</li>
+      <li>Associate Data Analyst in Python (DataCamp)</li>
+    </ul>
+  </div>
+
+</BaseLayout>

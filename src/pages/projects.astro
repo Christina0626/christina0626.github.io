@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
+  <div>
+    <div id="sensory" class="text-3xl w-full font-bold mb-5">Sensory Processing in neurodevelopmental disorders</div>
+  </div>
+
+  <HorizontalCard
+    title="Replicable, Transdiagnostic Behavioral and Neural Correlates of Sensory Overresponsivity"
+    img="/SOR_clinical.png"
+    desc="Sensory over-responsivity (SOR), characterized by strong negative reactions to typically innocuous stimuli, is considered a symptom of autism spectrum disorder. However, SOR also affects 15-20% of children overall, including a majority of children with common psychiatric conditions. Despite its prevalence, the clinical specificity and neurobiological bases of SOR remain poorly understood. Our study aims to determine the specific clinical significance of SOR across diverse child samples and establish whether SOR is associated with distinct patterns of functional connectivity (FC)."
+    url="#"
+    badge="NEW RESULTS!"
+  />
+  <div class="mt-2 mb-4 flex gap-2">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40950218/" target="_blank" class="btn btn-sm btn-primary">Check out the Preprint!</a>
+    <a href="/CL-2025 SfN RFS copy.pdf" class="btn btn-sm btn-accent" download>Download Poster Presentation at 2025 SfN</a>
+  </div>
+  <div class="divider my-0"></div>
+
+  <div id="thalamo"></div>
+  <HorizontalCard
+    title="Thalamocortical Connectivity and Looking Behavior in Neonates on Risk of ASD"
+    img="/SVP.png"
+    desc="Based on thalamocortical circuitry studies in nonhuman primates and other species, the current project aims to characterize the patterns of the thalamo-cortical input in early development is related to emerging social impairments."
+    url="#"
+    badge="Ongoing"
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Altered Emotion Regulation in Children with Early Sensory Challenges"
+    img="/SOR_ER.png"
+    desc="Adolescence (ages 10–19) is a critical window for developing emotional regulation as children navigate increasingly complex social environments. While emerging research suggests sensory processing difficulties may be linked to mood dysregulation and later anxiety, the relationship between sensory over-responsivity (SOR) and maladaptive emotion regulation strategies remains understudied—particularly regarding directionality and developmental timing. This study investigated the association between SOR and maladaptive emotion regulation in pre-adolescent and middle-adolescent children, examining whether age moderates this relationship. Using a community sample enriched for psychiatric symptoms, we found that over half of at-risk children (50.9%) experience SOR. Critically, age moderated the SOR-emotion regulation link: older adolescents (ages 12–14) with severe SOR were significantly more likely to use avoidance coping strategies compared to peers with mild or no SOR, while no such differences emerged in younger children (ages 8–11). This suggests that SOR may impede the typical developmental shift from maladaptive to adaptive emotion regulation strategies during adolescence—possibly by limiting the social and environmental interactions essential for emotional learning."
+    url="#"
+  />
+  <div class="mt-2 mb-4">
+    <a href="/ER-SOR poster.pdf" class="btn btn-sm btn-primary">Download the Poster</a>
+  </div>
+  <div class="divider my-0"></div>
+
+  <div>
+    <div id="Emotion" class="text-3xl w-full font-bold mb-5 mt-10">Neurodevelopment of Naturalistic Social-Emotion Encoding and Emotion Regulation from Infancy to Adolescence</div>
+  </div>
+
+  <HorizontalCard
+    title="Developmental Differences in Contextualized Social-emotional Encoding"
+    img="/DM_pic.png"
+    desc="Social-emotional processing is inherently multimodal—navigating real-world social interactions requires integrating sensory, semantic, and emotional information simultaneously. While decades of research have characterized how the brain processes each of these components individually and how they develop, a critical gap remains: how do these systems work together during naturalistic social cognition, and how does this integration change across development? Traditional experimental paradigms using controlled, decontextualized stimuli struggle to capture this complexity. Movie-watching paradigms offer a promising alternative, providing ecologically valid stimuli that engage multiple processing streams as they would in everyday life. Although prior neuroimaging studies have used naturalistic stimuli to examine sensory, semantic, or emotional processing separately, few have investigated how these components integrate during development. This line of research aims to bridge that gap by examining how the developing brain coordinates these information (n=41 features including emotion, semantic, and lower-level sensory cues) streams during rich, real-world-like social-emotional experiences."
+    url="#"
+    badge="Ongoing"
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Individual Differences in Emotion Regulation Strategies Shape Neural Discrimination Patterns Among Basic Emotions"
+    img="/emodiscrim.png"
+    desc="Emotion regulation (ER) strategies, particularly cognitive reappraisal and emotion suppression are constructed from basic cognition and emotion discrimination skills. It plays crucial roles in psychopathologies and socio-emotional functioning, especially across development. While previous research on eye-tracking established that these strategies involve differences in visual-attentional preference of emotions, little is known about how ER strategies relate to the cognitive ability to discriminate between different emotional states. Understanding neural emotion discrimination patterns could provide insights into the neural architecture of ER and explain why individuals differ in their emotional processing capabilities. The goal for this project is to 1) Characterize neural discrimination patterns between basic emotions across development and 2) Investigate how individual differences in emotion regulation strategies relate to these neural discrimination patterns and identify brain regions most strongly predicted regulation strategy. In the preliminary analysis of 361 participants, we found greater use of suppression was significantly associated with reduced neural discrimination between negative emotions (fear, sadness, anger) and excitement in higher-order ventral and dorsal visual pathways. Conversely, enhanced discrimination was observed in lateral somatomotor areas and default mode networks specifically for fear-excitement."
+    url="#"
+  />
+  <div class="mt-2 mb-4">
+    <a href="/Christina Luo SANS Poster.pdf" class="btn btn-sm btn-primary">Download Poster Presentation at 2025 SANS</a>
+  </div>
+  <div class="divider my-0"></div>
+
+  <div id="preteen-er"></div>
+  <HorizontalCard
+    title="Naturalistic Emotion Regulation in Preteens During Peer Interactions"
+    img="/preteen_ER.png"
+    desc="I am leading in the development of novel protocol for a pilot grant in studying encoding of social and emotional cues and emotion regulation in pre-teens during peer interactions capitalizing on less-motion sensitive DOT neuroimaging. Unlike passive viewing, real-life interactions require bidirectional regulation: teens must manage their own emotions while also considering how their expressions influence their peer's emotional state. This paradigm could reveal how the brain coordinates multiple regulatory systems to navigate the complex demands of social emotion regulation. I hypothesize children with maladaptive emotion regulation skills would have less neural discrimination of different emotions and heightened sensitivity to irrelevant stimuli."
+    url="#"
+    badge="Ongoing"
+  />
+
+</BaseLayout>
